@@ -18,5 +18,3 @@ class Queue:
         if 0 <= index <= self.__len__():
             return self._data[index]
         raise IndexError
-        
-
